@@ -1,0 +1,5 @@
+data/raw_handwriting/
+data/metadata/
+data/predictions.db
+logs/
+
