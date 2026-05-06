@@ -1,0 +1,10 @@
+
+
+{
+  "active_model": {
+    "model_name": "baseline_handwriting_classifier",
+    "model_version": "v0.1.0",
+    "model_path": "models/baseline_model.pkl",
+    "description": "Rule-based placeholder model for initial API testing"
+  }
+}
