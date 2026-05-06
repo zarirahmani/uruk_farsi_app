@@ -7,3 +7,17 @@
 2026-05-06 08:23:15,723 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
 2026-05-06 08:24:13,632 | INFO | farsi_app | Database initialized.
 2026-05-06 08:24:13,633 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-06 13:00:06,024 | INFO | farsi_app | Database initialized.
+2026-05-06 13:00:06,024 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-06 13:02:49,835 | INFO | farsi_app | Database initialized.
+2026-05-06 13:02:49,835 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-06 13:02:55,085 | INFO | farsi_app | Database initialized.
+2026-05-06 13:02:55,085 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-06 13:04:52,302 | INFO | farsi_app | Database initialized.
+2026-05-06 13:04:52,302 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-06 13:10:03,260 | INFO | farsi_app | Database initialized.
+2026-05-06 13:10:03,260 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-06 13:12:16,349 | INFO | farsi_app | Database initialized.
+2026-05-06 13:12:16,349 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-06 13:13:20,587 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ب | target=ب
+2026-05-06 13:13:20,598 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ب/demo_user_letter_ب_20260506_121320_587539.png

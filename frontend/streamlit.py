@@ -53,8 +53,18 @@ target_label = st.selectbox(
 
 st.write(f"Target letter: **{target_label}**")
 
-# Later replace this with real audio files.
-st.info("Audio prompt placeholder: learner hears the target letter or word here.")
+audio_map = {
+    "آ": "frontend/audio/ab.wav",
+    "ب": "frontend/audio/baba.wav",
+    "ن": "frontend/audio/nan.wav",
+}
+
+audio_file = audio_map.get(target_label)
+
+if audio_file:
+    st.audio(audio_file)
+else:
+    st.warning("Audio file not found for this exercise.")
 
 canvas_result = st_canvas(
     fill_color="rgba(255, 255, 255, 0)",

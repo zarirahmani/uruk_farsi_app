@@ -5,6 +5,8 @@ from backend.app.model import HandwritingModel
 from backend.app.database import init_db, log_prediction
 from backend.app.logging_config import logger
 
+from datetime import datetime
+from backend.app.data_collection import save_handwriting_image, append_metadata
 
 app = FastAPI(
     title="Farsi Writing Tutor API",
@@ -78,9 +80,17 @@ async def check_handwriting(
     logger.info(
         f"Handwriting request | learner={learner_id} | "
         f"exercise={exercise_id} | target={target_label}"
-    )
+        )
 
     image_bytes = await file.read()
+
+    saved_image_path = save_handwriting_image(
+        image_bytes=image_bytes,
+        target_label=target_label,
+        learner_id=learner_id,
+        exercise_id=exercise_id,
+    )
+
     image_array = preprocess_image(image_bytes)
 
     predicted_label, confidence = handwriting_model.predict(image_array)
@@ -104,11 +114,21 @@ async def check_handwriting(
         model_name=handwriting_model.model_name,
         model_version=handwriting_model.model_version
     )
-
-    logger.info(
-        f"Prediction logged | target={target_label} | "
-        f"predicted={predicted_label} | correct={is_correct}"
-    )
+    append_metadata({
+        "image_path": saved_image_path,
+        "target_label": target_label,
+        "predicted_label": predicted_label,
+        "learner_id": learner_id,
+        "exercise_id": exercise_id,
+        "confidence": confidence,
+        "is_correct": is_correct,
+        "model_name": handwriting_model.model_name,
+        "model_version": handwriting_model.model_version,
+        "timestamp": datetime.utcnow().isoformat(),
+    })
+    
+    logger.info(f"Saved handwriting image to {saved_image_path}"
+                )
 
     return HandwritingResponse(
         target_label=target_label,

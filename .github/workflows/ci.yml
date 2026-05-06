@@ -13,23 +13,31 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+# This downloads the GitHub repo.
 
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.11"
+# Installs Python.  
 
       - name: Install uv
         uses: astral-sh/setup-uv@v7
+# Installs uv.
 
       - name: Install dependencies
         run: uv sync
+# Reads pyproject.toml and uv.lock and installs all required packages.
 
       - name: Run linting
         run: uv run ruff check .
+# Runs Ruff to detect syntax errors, catch bad coding practices and enforce style. If lint fails, pipeline fails.
 
       - name: Run tests
         run: uv run pytest
+# Runs tests using pytest. If any test fails, pipeline fails. 
 
       - name: Build Docker image
         run: docker build -t uruk_farsi_app .
+
+# Checks that Dockerfile works and the app can be containerized.
