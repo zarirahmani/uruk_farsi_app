@@ -1,0 +1,4 @@
+exercise_id,level,audio_file,target_letter,target_word,transliteration,meaning
+ex_001,A1,audio/ab.wav,آ,آب,ab,water
+ex_002,A1,audio/baba.wav,بابا,baba,father
+ex_003,A1,audio/nan.wav,ن,نان,nan,bread
