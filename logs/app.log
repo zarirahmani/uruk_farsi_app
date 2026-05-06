@@ -3,3 +3,7 @@
 2026-05-05 12:46:44,266 | INFO | farsi_app | Database initialized.
 2026-05-05 12:46:44,266 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
 2026-05-05 12:48:35,112 | INFO | farsi_app | Writing check request from learner=demo_user
+2026-05-06 08:23:15,722 | INFO | farsi_app | Database initialized.
+2026-05-06 08:23:15,723 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-06 08:24:13,632 | INFO | farsi_app | Database initialized.
+2026-05-06 08:24:13,633 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0

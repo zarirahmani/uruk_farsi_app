@@ -1,0 +1,12 @@
+
+
+services:
+  backend:
+    build: .
+    container_name: uruk_farsi_app
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./models:/app/models
