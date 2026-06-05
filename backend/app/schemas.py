@@ -26,3 +26,24 @@ class HandwritingResponse(BaseModel):
     feedback: str
     model_name: str
     model_version: str
+
+
+class ExerciseCreate(BaseModel):
+    exercise_id: str
+    level: str
+    exercise_type: str
+    target_label: Optional[str] = None
+    target_word: Optional[str] = None
+    audio_path: Optional[str] = None
+    instruction: str
+
+
+class ExerciseResponse(BaseModel):
+    exercise_id: str
+    level: str
+    exercise_type: str
+    target_label: Optional[str]
+    target_word: Optional[str]
+    audio_path: Optional[str]
+    instruction: str
+    is_active: int

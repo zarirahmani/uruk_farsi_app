@@ -21,3 +21,223 @@
 2026-05-06 13:12:16,349 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
 2026-05-06 13:13:20,587 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ب | target=ب
 2026-05-06 13:13:20,598 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ب/demo_user_letter_ب_20260506_121320_587539.png
+2026-05-07 14:16:12,120 | INFO | farsi_app | Database initialized.
+2026-05-07 14:16:12,120 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 14:18:13,765 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_پ | target=پ
+2026-05-07 14:18:13,779 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/پ/demo_user_letter_پ_20260507_131813_765921.png
+2026-05-07 14:18:42,181 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ب | target=ب
+2026-05-07 14:18:42,184 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ب/demo_user_letter_ب_20260507_131842_182351.png
+2026-05-07 14:18:59,617 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ت | target=ت
+2026-05-07 14:18:59,620 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ت/demo_user_letter_ت_20260507_131859_618115.png
+2026-05-07 14:19:27,730 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ن | target=ن
+2026-05-07 14:19:27,732 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ن/demo_user_letter_ن_20260507_131927_730318.png
+2026-05-07 14:19:43,013 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_م | target=م
+2026-05-07 14:19:43,014 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/م/demo_user_letter_م_20260507_131943_013459.png
+2026-05-07 14:20:15,982 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ا | target=ا
+2026-05-07 14:20:15,985 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ا/demo_user_letter_ا_20260507_132015_983652.png
+2026-05-07 14:34:05,123 | INFO | farsi_app | Database initialized.
+2026-05-07 14:34:05,123 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 14:37:55,889 | INFO | farsi_app | Database initialized.
+2026-05-07 14:37:55,889 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 14:38:05,896 | INFO | farsi_app | Database initialized.
+2026-05-07 14:38:05,896 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 14:40:47,547 | INFO | farsi_app | Database initialized.
+2026-05-07 14:40:47,547 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 14:42:31,649 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_آ | target=آ
+2026-05-07 14:42:31,658 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/آ/demo_user_letter_آ_20260507_134231_650139.png
+2026-05-07 14:43:27,879 | INFO | farsi_app | Database initialized.
+2026-05-07 14:43:27,879 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 14:44:49,343 | INFO | farsi_app | Database initialized.
+2026-05-07 14:44:49,343 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 14:45:45,770 | INFO | farsi_app | Database initialized.
+2026-05-07 14:45:45,770 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 14:45:55,788 | INFO | farsi_app | Database initialized.
+2026-05-07 14:45:55,788 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 14:46:29,689 | INFO | farsi_app | Database initialized.
+2026-05-07 14:46:29,689 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 14:46:40,573 | INFO | farsi_app | Database initialized.
+2026-05-07 14:46:40,573 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 14:46:49,995 | INFO | farsi_app | Database initialized.
+2026-05-07 14:46:49,995 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 14:49:48,739 | INFO | farsi_app | Database initialized.
+2026-05-07 14:49:48,739 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 14:56:49,630 | INFO | farsi_app | Database initialized.
+2026-05-07 14:56:49,630 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 14:57:38,404 | INFO | farsi_app | Database initialized.
+2026-05-07 14:57:38,405 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 15:00:56,036 | INFO | farsi_app | Database initialized.
+2026-05-07 15:00:56,036 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 15:12:30,011 | INFO | farsi_app | Database initialized.
+2026-05-07 15:12:30,011 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 15:21:16,372 | INFO | farsi_app | Database initialized.
+2026-05-07 15:21:16,372 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 15:48:58,188 | INFO | farsi_app | Database initialized.
+2026-05-07 15:48:58,188 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 15:50:03,546 | INFO | farsi_app | Database initialized.
+2026-05-07 15:50:03,546 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 15:53:45,620 | INFO | farsi_app | Database initialized.
+2026-05-07 15:53:45,621 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 15:54:20,226 | INFO | farsi_app | Database initialized.
+2026-05-07 15:54:20,226 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 15:54:30,282 | INFO | farsi_app | Database initialized.
+2026-05-07 15:54:30,282 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 15:54:38,805 | INFO | farsi_app | Database initialized.
+2026-05-07 15:54:38,805 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 15:54:49,660 | INFO | farsi_app | Database initialized.
+2026-05-07 15:54:49,660 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 15:55:02,602 | INFO | farsi_app | Database initialized.
+2026-05-07 15:55:02,602 | INFO | farsi_app | Loaded model: baseline_handwriting_classifier v0.1.0
+2026-05-07 16:09:12,215 | INFO | farsi_app | Database initialized.
+2026-05-07 16:09:12,215 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-05-07 16:10:01,934 | INFO | farsi_app | Database initialized.
+2026-05-07 16:10:01,935 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-05-07 16:10:11,973 | INFO | farsi_app | Database initialized.
+2026-05-07 16:10:11,973 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-05-07 16:10:21,319 | INFO | farsi_app | Database initialized.
+2026-05-07 16:10:21,320 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-05-07 16:10:58,420 | INFO | farsi_app | Database initialized.
+2026-05-07 16:10:58,420 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-05-07 16:11:10,059 | INFO | farsi_app | Database initialized.
+2026-05-07 16:11:10,059 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-05-07 16:21:23,215 | INFO | farsi_app | Database initialized.
+2026-05-07 16:21:23,215 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-05-07 16:26:53,129 | INFO | farsi_app | Database initialized.
+2026-05-07 16:26:53,129 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-05-07 16:28:25,478 | INFO | farsi_app | Database initialized.
+2026-05-07 16:28:25,478 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-05-07 16:31:42,906 | INFO | farsi_app | Database initialized.
+2026-05-07 16:31:42,906 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-05-07 16:32:06,088 | INFO | farsi_app | Database initialized.
+2026-05-07 16:32:06,088 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-05-07 16:32:19,253 | INFO | farsi_app | Database initialized.
+2026-05-07 16:32:19,253 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-05-07 16:36:42,674 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_آ | target=آ
+2026-05-07 16:36:42,688 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/آ/demo_user_letter_آ_20260507_153642_675021.png
+2026-05-07 16:38:55,530 | INFO | farsi_app | Database initialized.
+2026-05-07 16:38:55,530 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-05-07 16:39:31,814 | INFO | farsi_app | Database initialized.
+2026-05-07 16:39:31,815 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-05-07 16:42:36,968 | INFO | farsi_app | Database initialized.
+2026-05-07 16:42:36,968 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-05-07 16:42:50,860 | INFO | farsi_app | Database initialized.
+2026-05-07 16:42:50,860 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-05-07 16:43:13,416 | INFO | farsi_app | Database initialized.
+2026-05-07 16:43:13,416 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-05-07 16:44:55,508 | INFO | farsi_app | Database initialized.
+2026-05-07 16:44:55,510 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-05-07 16:46:54,157 | INFO | farsi_app | Database initialized.
+2026-05-07 16:46:54,163 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-05-07 16:53:11,102 | INFO | farsi_app | Database initialized.
+2026-05-07 16:53:11,106 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-05-07 16:54:40,135 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_آ | target=آ
+2026-05-07 16:54:40,164 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/آ/demo_user_letter_آ_20260507_155440_135797.png
+2026-05-07 16:54:56,549 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ا | target=ا
+2026-05-07 16:54:56,552 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ا/demo_user_letter_ا_20260507_155456_549996.png
+2026-05-07 16:55:15,971 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ب | target=ب
+2026-05-07 16:55:15,973 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ب/demo_user_letter_ب_20260507_155515_971398.png
+2026-05-07 16:55:31,251 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_پ | target=پ
+2026-05-07 16:55:31,253 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/پ/demo_user_letter_پ_20260507_155531_251532.png
+2026-05-07 16:55:53,050 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ت | target=ت
+2026-05-07 16:55:53,052 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ت/demo_user_letter_ت_20260507_155553_050137.png
+2026-05-07 16:56:06,818 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_م | target=م
+2026-05-07 16:56:06,821 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/م/demo_user_letter_م_20260507_155606_818872.png
+2026-05-07 16:56:19,850 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ن | target=ن
+2026-05-07 16:56:19,852 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ن/demo_user_letter_ن_20260507_155619_850596.png
+2026-05-07 16:56:54,482 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ن | target=ن
+2026-05-07 16:56:54,485 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ن/demo_user_letter_ن_20260507_155654_483103.png
+2026-05-07 16:57:12,167 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ن | target=ن
+2026-05-07 16:57:12,169 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ن/demo_user_letter_ن_20260507_155712_167339.png
+2026-05-07 16:57:30,173 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ن | target=ن
+2026-05-07 16:57:30,177 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ن/demo_user_letter_ن_20260507_155730_173485.png
+2026-05-07 16:57:47,958 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ن | target=ن
+2026-05-07 16:57:47,962 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ن/demo_user_letter_ن_20260507_155747_958999.png
+2026-05-07 16:58:00,667 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ب | target=ب
+2026-05-07 16:58:00,669 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ب/demo_user_letter_ب_20260507_155800_667398.png
+2026-05-07 16:58:14,719 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_آ | target=آ
+2026-05-07 16:58:14,722 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/آ/demo_user_letter_آ_20260507_155814_719905.png
+2026-05-07 16:58:31,500 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_پ | target=پ
+2026-05-07 16:58:31,502 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/پ/demo_user_letter_پ_20260507_155831_500279.png
+2026-05-07 16:58:44,267 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ن | target=ن
+2026-05-07 16:58:44,269 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ن/demo_user_letter_ن_20260507_155844_267137.png
+2026-05-07 17:15:58,709 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ت | target=ت
+2026-05-07 17:15:58,715 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ت/demo_user_letter_ت_20260507_161558_710405.png
+2026-05-07 17:16:16,268 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ن | target=ن
+2026-05-07 17:16:16,273 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ن/demo_user_letter_ن_20260507_161616_269461.png
+2026-05-07 17:29:21,779 | INFO | farsi_app | Database initialized.
+2026-05-07 17:29:21,784 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-05-07 17:30:12,012 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ن | target=ن
+2026-05-07 17:30:12,022 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ن/demo_user_letter_ن_20260507_163012_013104.png
+2026-05-08 09:05:53,917 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_پ | target=پ
+2026-05-08 09:05:53,931 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/پ/demo_user_letter_پ_20260508_080553_918415.png
+2026-05-08 09:06:11,259 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ت | target=ت
+2026-05-08 09:06:11,264 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ت/demo_user_letter_ت_20260508_080611_259481.png
+2026-05-08 09:06:43,940 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ت | target=ت
+2026-05-08 09:06:43,943 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ت/demo_user_letter_ت_20260508_080643_940943.png
+2026-05-08 09:06:59,806 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_م | target=م
+2026-05-08 09:06:59,808 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/م/demo_user_letter_م_20260508_080659_806736.png
+2026-05-08 09:07:14,334 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ن | target=ن
+2026-05-08 09:07:14,337 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ن/demo_user_letter_ن_20260508_080714_335567.png
+2026-05-08 09:07:31,222 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ب | target=ب
+2026-05-08 09:07:31,225 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ب/demo_user_letter_ب_20260508_080731_222477.png
+2026-05-08 09:08:39,097 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_آ | target=آ
+2026-05-08 09:08:39,101 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/آ/demo_user_letter_آ_20260508_080839_098001.png
+2026-05-08 09:08:49,382 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ا | target=ا
+2026-05-08 09:08:49,385 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ا/demo_user_letter_ا_20260508_080849_383197.png
+2026-05-08 09:09:35,567 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_پ | target=پ
+2026-05-08 09:09:35,570 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/پ/demo_user_letter_پ_20260508_080935_568182.png
+2026-05-08 09:09:50,388 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ب | target=ب
+2026-05-08 09:09:50,391 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ب/demo_user_letter_ب_20260508_080950_389024.png
+2026-06-01 15:09:21,886 | INFO | farsi_app | Database initialized.
+2026-06-01 15:09:21,892 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-06-01 16:43:05,353 | INFO | farsi_app | Database initialized.
+2026-06-01 16:43:05,369 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-06-01 17:01:45,019 | INFO | farsi_app | Database initialized.
+2026-06-01 17:01:45,024 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-06-01 17:01:52,601 | INFO | farsi_app | Database initialized.
+2026-06-01 17:01:52,605 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-06-01 17:01:55,738 | INFO | farsi_app | Database initialized.
+2026-06-01 17:01:55,741 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-06-01 17:02:50,236 | INFO | farsi_app | Database initialized.
+2026-06-01 17:02:50,241 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-06-01 17:07:05,980 | INFO | farsi_app | Database initialized.
+2026-06-01 17:07:05,986 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-06-01 17:24:00,019 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_آ | target=آ
+2026-06-01 17:24:00,088 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/آ/demo_user_letter_آ_20260601_162400_020456.png
+2026-06-01 17:24:35,448 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_آ | target=آ
+2026-06-01 17:24:35,456 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/آ/demo_user_letter_آ_20260601_162435_449431.png
+2026-06-01 17:24:41,888 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_آ | target=آ
+2026-06-01 17:24:41,894 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/آ/demo_user_letter_آ_20260601_162441_888723.png
+2026-06-01 17:25:25,634 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ب | target=ب
+2026-06-01 17:25:25,642 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ب/demo_user_letter_ب_20260601_162525_634483.png
+2026-06-01 17:25:33,697 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ب | target=ب
+2026-06-01 17:25:33,704 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ب/demo_user_letter_ب_20260601_162533_698022.png
+2026-06-01 17:26:52,581 | INFO | farsi_app | Database initialized.
+2026-06-01 17:26:52,587 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-06-01 17:27:06,997 | INFO | farsi_app | Database initialized.
+2026-06-01 17:27:07,002 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-06-01 17:27:52,161 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ب | target=ب
+2026-06-01 17:27:52,177 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ب/demo_user_letter_ب_20260601_162752_162016.png
+2026-06-01 17:28:07,070 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_آ | target=آ
+2026-06-01 17:28:07,077 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/آ/demo_user_letter_آ_20260601_162807_070394.png
+2026-06-01 17:28:20,299 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_م | target=م
+2026-06-01 17:28:20,306 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/م/demo_user_letter_م_20260601_162820_300514.png
+2026-06-01 17:41:56,301 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ت | target=ت
+2026-06-01 17:41:56,341 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ت/demo_user_letter_ت_20260601_164156_303333.png
+2026-06-01 18:13:54,153 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ت | target=ت
+2026-06-01 18:13:54,205 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ت/demo_user_letter_ت_20260601_171354_155864.png
+2026-06-01 18:14:07,286 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ب | target=ب
+2026-06-01 18:14:07,292 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ب/demo_user_letter_ب_20260601_171407_286383.png
+2026-06-01 18:14:19,139 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ب | target=ب
+2026-06-01 18:14:19,145 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ب/demo_user_letter_ب_20260601_171419_139437.png
+2026-06-05 06:50:24,024 | INFO | farsi_app | Database initialized.
+2026-06-05 06:50:24,030 | INFO | farsi_app | Loaded model: handwriting_cnn v0.1.0
+2026-06-05 06:53:49,192 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=ex_001 | target=ا
+2026-06-05 06:53:49,223 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ا/demo_user_ex_001_20260605_055349_193346.png
+2026-06-05 06:54:04,371 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=ex_002 | target=ب
+2026-06-05 06:54:04,377 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ب/demo_user_ex_002_20260605_055404_371490.png
+2026-06-05 06:54:17,474 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=ex_002 | target=ب
+2026-06-05 06:54:17,479 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ب/demo_user_ex_002_20260605_055417_474609.png
+2026-06-05 06:54:41,148 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=letter_ت | target=ت
+2026-06-05 06:54:41,154 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/ت/demo_user_letter_ت_20260605_055441_148986.png
+2026-06-05 06:55:39,939 | INFO | farsi_app | Handwriting request | learner=demo_user | exercise=ex_006 | target=م
+2026-06-05 06:55:39,945 | INFO | farsi_app | Saved handwriting image to data/raw_handwriting/م/demo_user_ex_006_20260605_055539_940321.png

@@ -1,10 +1,21 @@
-
-
 {
   "active_model": {
-    "model_name": "baseline_handwriting_classifier",
+    "model_name": "handwriting_cnn",
     "model_version": "v0.1.0",
-    "model_path": "models/baseline_model.pkl",
-    "description": "Rule-based placeholder model for initial API testing"
+    "model_path": "models/handwriting_cnn_v0.1.0.pt",
+    "labels": [
+      "آ",
+      "ا",
+      "ب",
+      "پ",
+      "ت",
+      "ن",
+      "م"
+    ],
+    "image_size": 64,
+    "input_channels": 1,
+    "best_val_accuracy": 0.9704301075268817,
+    "description": "CNN trained on 7 Persian handwritten letters",
+    "test_accuracy": 0.938337801608579
   }
 }

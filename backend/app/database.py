@@ -36,6 +36,20 @@ def init_db():
         created_at TEXT
     )
     """)
+    
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS exercises (
+        exercise_id TEXT PRIMARY KEY,
+        level TEXT NOT NULL,
+        exercise_type TEXT NOT NULL,
+        target_label TEXT,
+        target_word TEXT,
+        audio_path TEXT,
+        instruction TEXT NOT NULL,
+        is_active INTEGER DEFAULT 1,
+        created_at TEXT
+        )
+     """)
 
     conn.commit()
     conn.close()

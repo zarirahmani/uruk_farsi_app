@@ -1,6 +1,7 @@
 [dependency-groups]
 dev = [
     "httpx>=0.28.1",
+    "matplotlib>=3.10.9",
     "pydantic>=2.13.3",
     "pytest>=9.0.3",
     "requests>=2.33.1",
@@ -25,6 +26,7 @@ dependencies = [
     "torch>=2.11.0",
     "torchvision>=0.26.0",
     "opencv-python>=4.13.0.92",
+    "scikit-learn>=1.8.0",
 ]
 
 [tool.ruff]

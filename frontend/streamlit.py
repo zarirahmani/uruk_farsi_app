@@ -48,13 +48,14 @@ st.header("2. Handwriting practice")
 
 target_label = st.selectbox(
     "Choose the letter you heard",
-    ["ا", "ب", "پ", "ت", "ن", "م"]
+    ["آ", "ا", "ب", "پ", "ت", "م", "ن"]
 )
 
 st.write(f"Target letter: **{target_label}**")
 
 audio_map = {
     "آ": "frontend/audio/ab.wav",
+    "ا": "frontend/audio/ab.wav",
     "ب": "frontend/audio/baba.wav",
     "ن": "frontend/audio/nan.wav",
 }

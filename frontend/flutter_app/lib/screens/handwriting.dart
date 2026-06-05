@@ -1,11 +1,17 @@
 import 'package:flutter/material.dart';
 
+import '../models/exercise.dart';
 import '../services/api.dart';
 import '../widgets/drawing.dart';
 import 'feedback.dart';
 
 class HandwritingScreen extends StatefulWidget {
-  const HandwritingScreen({super.key});
+  final Exercise? exercise;
+
+  const HandwritingScreen({
+    super.key,
+    this.exercise,
+  });
 
   @override
   State<HandwritingScreen> createState() => _HandwritingScreenState();
@@ -17,11 +23,19 @@ class _HandwritingScreenState extends State<HandwritingScreen> {
 
   final ApiService apiService = ApiService();
 
-  String targetLabel = 'ب';
+  late String targetLabel;
+  late String exerciseId;
   bool isLoading = false;
   bool hasDrawing = false;
 
   final List<String> labels = ['آ', 'ا', 'ب', 'پ', 'ت', 'ن', 'م'];
+
+  @override
+  void initState() {
+    super.initState();
+    targetLabel = widget.exercise?.targetLabel ?? widget.exercise?.targetWord ?? 'ب';
+    exerciseId = widget.exercise?.exerciseId ?? 'letter_$targetLabel';
+  }
 
   Future<void> submitDrawing() async {
     if (!hasDrawing) {
@@ -42,7 +56,7 @@ class _HandwritingScreenState extends State<HandwritingScreen> {
         imageBytes: imageBytes,
         targetLabel: targetLabel,
         learnerId: 'demo_user',
-        exerciseId: 'letter_$targetLabel',
+        exerciseId: exerciseId,
       );
 
       if (!mounted) return;
@@ -83,31 +97,30 @@ class _HandwritingScreenState extends State<HandwritingScreen> {
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-            const Text(
-              'Choose the letter you hear, then draw it.',
-              style: TextStyle(fontSize: 18),
+            Text(
+              widget.exercise?.instruction ?? 'Choose the letter, then draw it.',
+              style: const TextStyle(fontSize: 18),
             ),
             const SizedBox(height: 16),
 
-            DropdownButton<String>(
-              value: targetLabel,
-              items: labels.map((label) {
-                return DropdownMenuItem(
-                  value: label,
-                  child: Text(
-                    label,
-                    style: const TextStyle(fontSize: 28),
-                  ),
-                );
-              }).toList(),
-              onChanged: (value) {
-                if (value != null) {
-                  setState(() {
-                    targetLabel = value;
-                  });
-                }
-              },
-            ),
+            if (widget.exercise == null)
+              DropdownButton<String>(
+                value: targetLabel,
+                items: labels.map((label) {
+                  return DropdownMenuItem(
+                    value: label,
+                    child: Text(label, style: const TextStyle(fontSize: 28)),
+                  );
+                }).toList(),
+                onChanged: (value) {
+                  if (value != null) {
+                    setState(() {
+                      targetLabel = value;
+                      exerciseId = 'letter_$targetLabel';
+                    });
+                  }
+                },
+              ),
 
             const SizedBox(height: 16),
 
